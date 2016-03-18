@@ -33,7 +33,7 @@ int main(int argc, char *argv[]) {
         cout << "Usage: " << argv[0] << " [object_image] [scene_image]" << endl;
         cout << "Using demo images" << endl;
         
-        string basePath = "../images/";
+        string basePath = "./images/";
         fnameObj = basePath + "box.png";
         fnameScene = basePath + "box_in_scene.png";
     } else {

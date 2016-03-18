@@ -12,7 +12,7 @@ using namespace cv;
 
 int main(int argc, char *argv[]) {
     double alpha = 0.5;
-    string basePath = "../images/";
+    string basePath = "./images/";
     string fname1 = basePath + "starry_night.jpg";
     string fname2 = basePath + "butterfly.jpg";
 
