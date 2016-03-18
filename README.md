@@ -5,3 +5,5 @@ Ensure the OpenCV libraries are installed and linked.
 
 Example compilation:
 g++ opencv_blending.cpp -o blend -I <include_path> -L <lib_path> -lopencv_core -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc
+
+or use Makefile (be sure to update paths in CFLAGS and LDFLAGS) 
